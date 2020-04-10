@@ -1,8 +1,9 @@
 body{
     background-color: #a52a2a;
     background-blend-mode: lighten;
+   /* border-right: double 3px white;*/
    margin: auto;
-   padding: 0px;
+   padding: 10px;
 }
 
 #lista{
@@ -10,12 +11,15 @@ body{
     margin: auto;
     text-align: center;
     padding: 0px;
+    
 }
+
 nav ul li {
     list-style: none;
     display: inline;
     padding: 10px;
     margin: auto;
+    
 }
 
 nav ul li a{
@@ -47,31 +51,13 @@ nav ul li a:hover {
     box-shadow: 0 5px #800000;
     text-align-last: center;
 }
+    
+}
 
 nav li form{
     display: inline block
 }
 
-nav ul li a:active{
-    background-color: #660000;
-    box-shadow: 0 5px #1a0000;
-    transform: translateY(4px);
-}
-
-#aluno{
-    cursor: not-allowed;
-    background-color: #b30000;
-    color: white;
-    border: 2px solid #a52a2a;
-    border-radius: 24px;
-    font-size: 14px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-transform: uppercase;
-    display: inline-block;
-    box-shadow: 0 5px #800000;
-    padding: 15px;
-    font-weight: 500;
-}
 
 header{
     color: white;
@@ -95,6 +81,7 @@ article{
     text-shadow: 0 3px #800000;
     margin: 10px;
     margin-top: 10px;
+    
 }
 
 #hellen{
@@ -107,11 +94,13 @@ article{
 #aluno3{
     flex: 5;
     text-shadow: 0 3px #800000;
+    
 }
 
-section{
+ section{
      display: flex;
-}
+     
+ }
 
  footer{
      padding-top: 10px;
@@ -119,14 +108,16 @@ section{
      color: white;
      text-align: center;
      text-shadow: 0 3px #800000;
-}
+
+ }
 
  #alinhamento{
      width: 100%; 
     position: relative;
-}
+ }
 
-.divs{
+ .divs{
      width: 25%;
      margin-top: 10px;
-}
+ }
+   
