@@ -52,6 +52,10 @@ nav ul li a:hover {
     text-align-last: center;
 }
     
+nav ul li a:active{
+    background-color: #660000;
+    box-shadow: 0 5px #1a0000;
+    transform: translateY(4px);
 }
 
 nav li form{
