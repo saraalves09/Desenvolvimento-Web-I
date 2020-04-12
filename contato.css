@@ -105,28 +105,36 @@ legend{
 
 #textname{
     border-radius: 4px;
-    width: 300px;
-    size: 300px;
-    padding: 5px;
+    width: 380px;
+    padding: 8px;
     border-color: grey;
 }
 
 select{
     border-radius: 4px;
-    width: 310px;
-    size: 300px;
-    padding: 5px;
+    width: 400px;
+    padding: 8px;
     border-color: grey;
-    border-style: solid;
-    box-shadow: 2px 1px;
+    box-shadow: 1px 1px;
 }
+
 
 textarea{
     border-radius: 4px;
-    padding: 5px;
+    width: 380px;
+    padding: 10px;
     border-color: grey;
-    box-shadow: 2px 1px;
-    width: 300px;
+    box-shadow: 2px 2px;
+    
+    
+}
+
+#botao{
+    width:400px;
+    padding: 10px;
+    display: inline;
+    border-radius: 4px;
+    object-position: center;
 }
 
 footer{
